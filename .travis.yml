@@ -12,6 +12,7 @@ script:
   - ./scripts/dotnet-build.sh
 after_success:
   - ./scripts/dotnet-publish.sh
+  - ls
   - ./scripts/docker-publish.sh
 notifications:
   email:

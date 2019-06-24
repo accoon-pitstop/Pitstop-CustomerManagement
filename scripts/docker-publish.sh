@@ -1,4 +1,5 @@
 #!/bin/bash
+ls
 DOCKER_TAG='latest'
 docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
 docker build -t dshop.services.customers:$DOCKER_TAG .
