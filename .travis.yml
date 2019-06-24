@@ -12,8 +12,6 @@ script:
   - ./scripts/dotnet-build.sh
 after_success:
   - ./scripts/dotnet-publish.sh
-  - cd ./src/Pitshop.CustomerApi/Accoon.Pitshop.CustomerApi.Presenter/bin/docker
-  - ls
   - ./scripts/docker-publish.sh
 notifications:
   email:
