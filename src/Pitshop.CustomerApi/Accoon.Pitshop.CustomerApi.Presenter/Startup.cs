@@ -70,7 +70,7 @@ namespace Accoon.Pitshop.CustomerApi.Presenter
             // Swagger
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "Pitshop Customer Management API", Version = "v1" });
+                c.SwaggerDoc("v1", new Info { Title = "Accoon - Pitshop Customer Management API", Version = "v1" });
             });
 
             // health check
