@@ -105,7 +105,7 @@ namespace Accoon.Pitshop.CustomerApi.Presenter
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Accoon - Pitshop Customer Management API");
             });
 
             // handle error handling globaly using middleware
