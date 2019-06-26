@@ -12,8 +12,10 @@ namespace Accoon.Pitshop.CustomerApi.Persistence.Configurations
         public void Configure(EntityTypeBuilder<Customer> builder)
         {
             builder.HasKey(e => e.Id);
-            builder.Property(e => e.Name).HasMaxLength(100).IsRequired();
-            builder.Property(e => e.Age).IsRequired();
+            builder.Property(e => e.Name).HasMaxLength(250).IsRequired();
+            builder.Property(e => e.EmailAddress).HasMaxLength(255).IsRequired();
+            builder.Property(e => e.Address).HasMaxLength(1000).IsRequired();
+            builder.Property(e => e.TelephoneNumber).HasMaxLength(15).IsRequired();
         }
     }
 }

@@ -12,9 +12,12 @@ namespace Accoon.Pitshop.CustomerApi.Persistence.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(nullable: false),
-                    Name = table.Column<string>(maxLength: 100, nullable: false),
-                    Age = table.Column<int>(nullable: false),
-                    Email = table.Column<string>(nullable: true)
+                    Name = table.Column<string>(nullable: true),
+                    Address = table.Column<string>(nullable: true),
+                    PostalCode = table.Column<string>(nullable: true),
+                    City = table.Column<string>(nullable: true),
+                    TelephoneNumber = table.Column<string>(nullable: true),
+                    EmailAddress = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

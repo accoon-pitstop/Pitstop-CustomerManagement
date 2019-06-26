@@ -4,15 +4,16 @@ using Accoon.Pitshop.CustomerApi.Persistence.DatabaseContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Accoon.Pitshop.CustomerApi.Persistence.Migrations
 {
-    [DbContext(typeof(DefaultDatabaseContext))]
-
-    partial class DatabaseContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(CustomerDatabaseContext))]
+    [Migration("20190626082655_InitMigration")]
+    partial class InitMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -25,13 +26,17 @@ namespace Accoon.Pitshop.CustomerApi.Persistence.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int>("Age");
+                    b.Property<string>("Address");
 
-                    b.Property<string>("Email");
+                    b.Property<string>("City");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(100);
+                    b.Property<string>("EmailAddress");
+
+                    b.Property<string>("Name");
+
+                    b.Property<string>("PostalCode");
+
+                    b.Property<string>("TelephoneNumber");
 
                     b.HasKey("Id");
 

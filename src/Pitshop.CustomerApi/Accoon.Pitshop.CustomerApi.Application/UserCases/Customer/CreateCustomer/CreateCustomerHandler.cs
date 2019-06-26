@@ -26,7 +26,6 @@ namespace Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustom
             {
                 Id = Guid.NewGuid(),
                 Name = request.Name,
-                Age = request.Age
             };
             //insert customer to database
             this.cqrscaDbContext.Customers.Add(entity);

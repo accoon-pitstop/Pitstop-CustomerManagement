@@ -14,8 +14,7 @@ namespace Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerL
         {
             configuration.CreateMap<Accoon.Pitshop.CustomerApi.Domain.Entities.Customer, CustomerDetailModel>()
                .ForMember(cDTO => cDTO.Id, opt => opt.MapFrom(c => c.Id))
-               .ForMember(cDTO => cDTO.Name, opt => opt.MapFrom(c => c.Name))
-               .ForMember(cDTO => cDTO.Age, opt => opt.MapFrom(c => c.Age));
+               .ForMember(cDTO => cDTO.Name, opt => opt.MapFrom(c => c.Name));
         }
     }
 }
