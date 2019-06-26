@@ -12,12 +12,12 @@ namespace Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustom
     public class CreateCustomerHandler : IRequestHandler<CreateCustomerCommand, CustomerCreated>
     {
         private readonly IMediator mediator;
-        private readonly IDatabaseContext cqrscaDbContext;
+        private readonly IDatabaseContext databaseContext;
 
         public CreateCustomerHandler(IMediator mediator, IDatabaseContext context)
         {
             this.mediator = mediator;
-            this.cqrscaDbContext = context;
+            this.databaseContext = context;
         }
 
         public async Task<CustomerCreated> Handle(CreateCustomerCommand request, CancellationToken cancellationToken)
@@ -26,11 +26,17 @@ namespace Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustom
             {
                 Id = Guid.NewGuid(),
                 Name = request.Name,
+                Address = request.Address,
+                City = request.City,
+                EmailAddress = request.EmailAddress,
+                PostalCode = request.PostalCode,
+                TelephoneNumber = request.TelephoneNumber
+
             };
             //insert customer to database
-            this.cqrscaDbContext.Customers.Add(entity);
+            this.databaseContext.Customers.Add(entity);
 
-            await this.cqrscaDbContext.SaveChangesAsync(cancellationToken);
+            await this.databaseContext.SaveChangesAsync(cancellationToken);
 
             var newcustomer = new CustomerCreated { CustomerId = entity.Id };
             await this.mediator.Publish(newcustomer, cancellationToken);

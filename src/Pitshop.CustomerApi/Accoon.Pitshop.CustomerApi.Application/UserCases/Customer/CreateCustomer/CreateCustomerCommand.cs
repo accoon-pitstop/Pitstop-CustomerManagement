@@ -9,8 +9,12 @@ namespace Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustom
     public class CreateCustomerCommand : IRequest<CustomerCreated>
     {
         public Guid Id { get; set; }
-        public string Name { get; set; }
-        public int Age { get; set; }
+        public string  Name { get; set; }
+        public string Address { get; set; }
+        public string PostalCode { get; set; }
+        public string City { get; set; }
+        public string TelephoneNumber { get; set; }
+        public string EmailAddress { get; set; }
     }
 }
 

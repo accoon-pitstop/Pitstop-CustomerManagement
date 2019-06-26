@@ -9,10 +9,22 @@ namespace Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustom
     {
         public CreateCustomerCommandValidator()
         {
-            RuleFor(x => x.Name).NotNull().WithMessage("Name is required");
-            RuleFor(x => x.Age)
-                .NotNull().WithMessage("Age is required")
-                .GreaterThan(18).WithMessage("Age must greater then 18");
+            RuleFor(x => x.Name)
+                .NotEmpty().WithMessage("Name is required");
+
+            RuleFor(x => x.EmailAddress)
+                .NotEmpty().WithMessage("Email is required")
+                .EmailAddress().WithMessage("Not a valid Email Address")
+                .MaximumLength(255);
+
+            RuleFor(x => x.Address)
+                .NotEmpty().WithMessage("Address is required")
+                .MaximumLength(1000);
+
+            RuleFor(x => x.TelephoneNumber)
+               .NotEmpty().WithMessage("Telephone number is required");
+               //.Matches(@"((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}");
+
         }
     }
 }
