@@ -7,8 +7,7 @@ using System.Text;
 namespace Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer
 {
     public class CreateCustomerCommand : IRequest<CustomerCreated>
-    {
-        public Guid Id { get; set; }
+    {        
         public string  Name { get; set; }
         public string Address { get; set; }
         public string PostalCode { get; set; }
