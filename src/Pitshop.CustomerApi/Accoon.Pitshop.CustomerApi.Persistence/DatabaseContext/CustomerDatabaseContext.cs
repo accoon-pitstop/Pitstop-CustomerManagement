@@ -18,7 +18,7 @@ namespace Accoon.Pitshop.CustomerApi.Persistence.DatabaseContext
         // register entity configurations
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.ApplyConfigurationsFromAssembly(typeof(CustomerDatabaseContext).Assembly);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(CustomerDatabaseContext).Assembly);
         }
 
 
