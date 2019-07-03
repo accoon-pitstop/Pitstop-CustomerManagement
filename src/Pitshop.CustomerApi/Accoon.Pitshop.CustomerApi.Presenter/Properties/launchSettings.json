@@ -34,8 +34,8 @@
         "ASPNETCORE_URLS": "https://+:443;http://+:80",
         "ASPNETCORE_HTTPS_PORT": "5001"
       },
-      "httpPort": 51281,
-      "useSSL": true,
+      "httpPort": 5001,
+      "useSSL": false,
       "sslPort": 44315
     }
   }
