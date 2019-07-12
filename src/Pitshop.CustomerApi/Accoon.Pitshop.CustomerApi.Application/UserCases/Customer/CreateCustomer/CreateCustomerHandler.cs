@@ -33,6 +33,8 @@ namespace Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustom
                 TelephoneNumber = request.TelephoneNumber
 
             };
+            var a = this.databaseContext.Customers;
+
             //insert customer to database
             this.databaseContext.Customers.Add(entity);
 
