@@ -29,11 +29,11 @@ namespace Pitstop_CustomerManagement.Application.Test.CustomerTest
 
 
             var mapper = new Mock<IMapper>();
-            var handler = new GetCustomerQueryHandler(databaseInstance.Object, mapper.Object);
+            //var handler = new GetCustomerQueryHandler(databaseInstance.Object, mapper.Object);
             var customerId = Guid.NewGuid();
 
             //act
-            var result = await handler.Handle(new GetCustomerQuery() { Id = customerId }, CancellationToken.None);
+            //var result = await handler.Handle(new GetCustomerQuery() { Id = customerId }, CancellationToken.None);
 
             // assert
             //Assert.IsNotType<CustomerModel>(result);
