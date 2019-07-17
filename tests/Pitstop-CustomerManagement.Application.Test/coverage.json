@@ -1,0 +1,1214 @@
+{
+  "Accoon.Pitshop.CustomerApi.Application.dll": {
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Application\\UserCases\\Customer\\GetCustomer\\CustomerModel.cs": {
+      "Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomer.CustomerModel": {
+        "System.Guid Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomer.CustomerModel::get_Id()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomer.CustomerModel::get_Name()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomer.CustomerModel::get_Address()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomer.CustomerModel::get_PostalCode()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomer.CustomerModel::get_City()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomer.CustomerModel::get_TelephoneNumber()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomer.CustomerModel::get_EmailAddress()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Application\\UserCases\\Customer\\GetCustomer\\GetCustomerQuery.cs": {
+      "Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomer.GetCustomerQuery": {
+        "System.Guid Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomer.GetCustomerQuery::get_Id()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Application\\UserCases\\Customer\\GetCustomer\\GetCustomerQueryHandler.cs": {
+      "Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomer.GetCustomerQueryHandler": {
+        "System.Void Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomer.GetCustomerQueryHandler::.ctor(Accoon.Pitshop.CustomerApi.Application.Interfaces.Database.IDatabaseContext,AutoMapper.IMapper)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      },
+      "Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomer.GetCustomerQueryHandler/<Handle>d__3": {
+        "System.Void Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomer.GetCustomerQueryHandler/<Handle>d__3::MoveNext()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 237,
+              "EndOffset": 239,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 237,
+              "EndOffset": 307,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Application\\UserCases\\Customer\\GetCustomerList\\CustomerDetailModel.cs": {
+      "Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.CustomerDetailModel": {
+        "System.Guid Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.CustomerDetailModel::get_Id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.CustomerDetailModel::get_Name()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.CustomerDetailModel::get_Address()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.CustomerDetailModel::get_PostalCode()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.CustomerDetailModel::get_City()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.CustomerDetailModel::get_TelephoneNumber()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.CustomerDetailModel::get_EmailAddress()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Void Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.CustomerDetailModel::CreateMappings(AutoMapper.Profile)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 70,
+              "EndOffset": 72,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 70,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 163,
+              "EndOffset": 165,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 163,
+              "EndOffset": 188,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 256,
+              "EndOffset": 258,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 256,
+              "EndOffset": 281,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 349,
+              "EndOffset": 351,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 349,
+              "EndOffset": 374,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 442,
+              "EndOffset": 444,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 442,
+              "EndOffset": 467,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 535,
+              "EndOffset": 537,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 535,
+              "EndOffset": 560,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 628,
+              "EndOffset": 630,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 628,
+              "EndOffset": 653,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Application\\UserCases\\Customer\\GetCustomerList\\CustomerListViewModel.cs": {
+      "Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.CustomerListViewModel": {
+        "System.Collections.Generic.List`1<Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.CustomerDetailModel> Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.CustomerListViewModel::get_Customers()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Application\\UserCases\\Customer\\GetCustomerList\\GetCustomersListQueryHandler.cs": {
+      "Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.GetCustomersListQueryHandler": {
+        "System.Void Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.GetCustomersListQueryHandler::.ctor(Accoon.Pitshop.CustomerApi.Application.Interfaces.Database.IDatabaseContext,AutoMapper.IMapper)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      },
+      "Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.GetCustomersListQueryHandler/<Handle>d__3": {
+        "System.Void Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomerList.GetCustomersListQueryHandler/<Handle>d__3::MoveNext()": {
+          "Lines": {
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 81,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 81,
+              "EndOffset": 150,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Application\\UserCases\\Customer\\CreateCustomer\\CreateCustomerCommand.cs": {
+      "Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CreateCustomerCommand": {
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CreateCustomerCommand::get_Name()": {
+          "Lines": {
+            "11": 1
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CreateCustomerCommand::get_Address()": {
+          "Lines": {
+            "12": 1
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CreateCustomerCommand::get_PostalCode()": {
+          "Lines": {
+            "13": 1
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CreateCustomerCommand::get_City()": {
+          "Lines": {
+            "14": 1
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CreateCustomerCommand::get_TelephoneNumber()": {
+          "Lines": {
+            "15": 1
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CreateCustomerCommand::get_EmailAddress()": {
+          "Lines": {
+            "16": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Application\\UserCases\\Customer\\CreateCustomer\\CreateCustomerCommandValidator.cs": {
+      "Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CreateCustomerCommandValidator": {
+        "System.Void Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CreateCustomerCommandValidator::.ctor()": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "28": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Application\\UserCases\\Customer\\CreateCustomer\\CreateCustomerHandler.cs": {
+      "Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CreateCustomerHandler": {
+        "System.Void Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CreateCustomerHandler::.ctor(MediatR.IMediator,Accoon.Pitshop.CustomerApi.Application.Interfaces.Database.IDatabaseContext)": {
+          "Lines": {
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": []
+        }
+      },
+      "Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CreateCustomerHandler/<Handle>d__3": {
+        "System.Void Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CreateCustomerHandler/<Handle>d__3::MoveNext()": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "39": 1,
+            "41": 1,
+            "43": 1,
+            "44": 1,
+            "46": 1,
+            "47": 1
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 41,
+              "Offset": 245,
+              "EndOffset": 314,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 44,
+              "Offset": 393,
+              "EndOffset": 461,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Application\\UserCases\\Customer\\CreateCustomer\\CustomerCreated.cs": {
+      "Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CustomerCreated": {
+        "System.Guid Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CustomerCreated::get_CustomerId()": {
+          "Lines": {
+            "10": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Application\\UserCases\\Customer\\CreateCustomer\\CustomerCreatedHandler.cs": {
+      "Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CustomerCreatedHandler": {
+        "System.Threading.Tasks.Task Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CustomerCreatedHandler::Handle(Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CustomerCreated,System.Threading.CancellationToken)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.CreateCustomer.CustomerCreatedHandler::.ctor()": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Application\\Notification\\Model\\Message.cs": {
+      "Accoon.Pitshop.CustomerApi.Application.Notification.Model.Message": {
+        "System.String Accoon.Pitshop.CustomerApi.Application.Notification.Model.Message::get_From()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.Notification.Model.Message::get_To()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.Notification.Model.Message::get_Subject()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Application.Notification.Model.Message::get_Body()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Application\\Infastructure\\Automapper\\AutoMapperProfile.cs": {
+      "Accoon.Pitshop.CustomerApi.Application.Infastructure.Automapper.AutoMapperProfile": {
+        "System.Void Accoon.Pitshop.CustomerApi.Application.Infastructure.Automapper.AutoMapperProfile::LoadConverters()": {
+          "Lines": {
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void Accoon.Pitshop.CustomerApi.Application.Infastructure.Automapper.AutoMapperProfile::LoadStandardMappings()": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 61,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 61,
+              "EndOffset": 63,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Accoon.Pitshop.CustomerApi.Application.Infastructure.Automapper.AutoMapperProfile::LoadCustomMappings()": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": [
+            {
+              "Line": 36,
+              "Offset": 45,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 45,
+              "EndOffset": 47,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Accoon.Pitshop.CustomerApi.Application.Infastructure.Automapper.AutoMapperProfile::.ctor()": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Application\\Infastructure\\Automapper\\MapperProfileHelper.cs": {
+      "Accoon.Pitshop.CustomerApi.Application.Infastructure.Automapper.MapperProfileHelper": {
+        "System.Collections.Generic.IList`1<Accoon.Pitshop.CustomerApi.Application.Entities.Automapper.Map> Accoon.Pitshop.CustomerApi.Application.Infastructure.Automapper.MapperProfileHelper::LoadStandardMappings(System.Reflection.Assembly)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 15,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 46,
+              "EndOffset": 71,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 82,
+              "EndOffset": 84,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 82,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 118,
+              "EndOffset": 120,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 118,
+              "EndOffset": 143,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Collections.Generic.IList`1<Accoon.Pitshop.CustomerApi.Application.Interfaces.Automapper.IHaveCustomMapping> Accoon.Pitshop.CustomerApi.Application.Infastructure.Automapper.MapperProfileHelper::LoadCustomMappings(System.Reflection.Assembly)": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": [
+            {
+              "Line": 37,
+              "Offset": 15,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 15,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 46,
+              "EndOffset": 71,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 82,
+              "EndOffset": 84,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 82,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 118,
+              "EndOffset": 120,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 118,
+              "EndOffset": 143,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Accoon.Pitshop.CustomerApi.Application.Infastructure.Automapper.MapperProfileHelper/<>c": {
+        "System.Boolean Accoon.Pitshop.CustomerApi.Application.Infastructure.Automapper.MapperProfileHelper/<>c::<LoadStandardMappings>b__0_2(<>f__AnonymousType0`2<System.Type,System.Type>)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 52,
+              "EndOffset": 54,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 11,
+              "EndOffset": 70,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 39,
+              "EndOffset": 70,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 52,
+              "EndOffset": 70,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Accoon.Pitshop.CustomerApi.Application.Infastructure.Automapper.MapperProfileHelper/<>c::<LoadCustomMappings>b__1_2(<>f__AnonymousType0`2<System.Type,System.Type>)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 21,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 34,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Application\\Entities\\Automapper\\Map.cs": {
+      "Accoon.Pitshop.CustomerApi.Application.Entities.Automapper.Map": {
+        "System.Type Accoon.Pitshop.CustomerApi.Application.Entities.Automapper.Map::get_Source()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Type Accoon.Pitshop.CustomerApi.Application.Entities.Automapper.Map::get_Destination()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Accoon.Pitshop.CustomerApi.Domain.dll": {
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Domain\\Entities\\Customer.cs": {
+      "Accoon.Pitshop.CustomerApi.Domain.Entities.Customer": {
+        "System.String Accoon.Pitshop.CustomerApi.Domain.Entities.Customer::get_Name()": {
+          "Lines": {
+            "14": 1
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Domain.Entities.Customer::get_Address()": {
+          "Lines": {
+            "15": 1
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Domain.Entities.Customer::get_PostalCode()": {
+          "Lines": {
+            "16": 1
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Domain.Entities.Customer::get_City()": {
+          "Lines": {
+            "17": 1
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Domain.Entities.Customer::get_TelephoneNumber()": {
+          "Lines": {
+            "18": 1
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Domain.Entities.Customer::get_EmailAddress()": {
+          "Lines": {
+            "19": 1
+          },
+          "Branches": []
+        },
+        "System.Void Accoon.Pitshop.CustomerApi.Domain.Entities.Customer::.ctor()": {
+          "Lines": {
+            "10": 1,
+            "11": 1,
+            "12": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "E:\\Accoon-Pitstop\\Pitstop-CustomerManagement\\Pitstop-CustomerManagement\\src\\Pitshop.CustomerApi\\Accoon.Pitshop.CustomerApi.Domain\\Common\\Entity.cs": {
+      "Accoon.Pitshop.CustomerApi.Domain.Common.Entity`1": {
+        "TPrimaryKey Accoon.Pitshop.CustomerApi.Domain.Common.Entity`1::get_Id()": {
+          "Lines": {
+            "19": 2
+          },
+          "Branches": []
+        },
+        "System.Boolean Accoon.Pitshop.CustomerApi.Domain.Common.Entity`1::IsTransient()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 28,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 62,
+              "EndOffset": 90,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 119,
+              "EndOffset": 121,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 119,
+              "EndOffset": 148,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Accoon.Pitshop.CustomerApi.Domain.Common.Entity`1::Equals(System.Object)": {
+          "Lines": {
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "90": 0,
+            "91": 0
+          },
+          "Branches": [
+            {
+              "Line": 49,
+              "Offset": 2,
+              "EndOffset": 4,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 2,
+              "EndOffset": 18,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 21,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 40,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 64,
+              "EndOffset": 66,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 64,
+              "EndOffset": 74,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 79,
+              "EndOffset": 81,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 79,
+              "EndOffset": 87,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 113,
+              "EndOffset": 115,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 113,
+              "EndOffset": 132,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 137,
+              "EndOffset": 139,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 137,
+              "EndOffset": 145,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Int32 Accoon.Pitshop.CustomerApi.Domain.Common.Entity`1::GetHashCode()": {
+          "Lines": {
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "101": 0,
+            "102": 0
+          },
+          "Branches": [
+            {
+              "Line": 96,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 96,
+              "Offset": 17,
+              "EndOffset": 24,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Accoon.Pitshop.CustomerApi.Domain.Common.Entity`1::op_Equality(Accoon.Pitshop.CustomerApi.Domain.Common.Entity`1<TPrimaryKey>,Accoon.Pitshop.CustomerApi.Domain.Common.Entity`1<TPrimaryKey>)": {
+          "Lines": {
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "112": 0,
+            "113": 0
+          },
+          "Branches": [
+            {
+              "Line": 107,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 107,
+              "Offset": 10,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean Accoon.Pitshop.CustomerApi.Domain.Common.Entity`1::op_Inequality(Accoon.Pitshop.CustomerApi.Domain.Common.Entity`1<TPrimaryKey>,Accoon.Pitshop.CustomerApi.Domain.Common.Entity`1<TPrimaryKey>)": {
+          "Lines": {
+            "117": 0,
+            "118": 0,
+            "119": 0
+          },
+          "Branches": []
+        },
+        "System.String Accoon.Pitshop.CustomerApi.Domain.Common.Entity`1::ToString()": {
+          "Lines": {
+            "123": 0,
+            "124": 0,
+            "125": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

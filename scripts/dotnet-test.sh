@@ -1,3 +1,3 @@
 cd ./tests/Pitstop-CustomerManagement.Application.Test
 ls
-dotnet test
+dotnet test /p:CollectCoverage=true
