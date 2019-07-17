@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.28902.138
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{A531EF62-149A-4F9D-9031-75E6EB6DDE7F}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{A531
 		scripts\dotnet-build-local.sh = scripts\dotnet-build-local.sh
 		scripts\dotnet-build.sh = scripts\dotnet-build.sh
 		scripts\dotnet-publish.sh = scripts\dotnet-publish.sh
+		dotnet-test.sh = dotnet-test.sh
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E9B0C4EC-7EE1-4F04-9E46-8111B93D269E}"
@@ -36,6 +37,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{688EFDC8-5629-4D7F-9653-DB490CBB3B71}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accoon.Pitshop.CustomerApi.Persistence", "src\Pitshop.CustomerApi\Accoon.Pitshop.CustomerApi.Persistence\Accoon.Pitshop.CustomerApi.Persistence.csproj", "{ABB62996-59FB-43DF-9672-251892BB00F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pitstop-CustomerManagement.Application.Test", "tests\Pitstop-CustomerManagement.Application.Test\Pitstop-CustomerManagement.Application.Test.csproj", "{03A2AD5E-BD59-4FC6-B92A-FE9E606AC8F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +66,10 @@ Global
 		{ABB62996-59FB-43DF-9672-251892BB00F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABB62996-59FB-43DF-9672-251892BB00F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABB62996-59FB-43DF-9672-251892BB00F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A2AD5E-BD59-4FC6-B92A-FE9E606AC8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A2AD5E-BD59-4FC6-B92A-FE9E606AC8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A2AD5E-BD59-4FC6-B92A-FE9E606AC8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A2AD5E-BD59-4FC6-B92A-FE9E606AC8F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +85,7 @@ Global
 		{CEDB6FFE-2C00-4053-AA40-9B629D352189} = {06ED3EBE-DBDB-4870-8E4E-2D3FBEB2FA4A}
 		{688EFDC8-5629-4D7F-9653-DB490CBB3B71} = {E9B0C4EC-7EE1-4F04-9E46-8111B93D269E}
 		{ABB62996-59FB-43DF-9672-251892BB00F5} = {688EFDC8-5629-4D7F-9653-DB490CBB3B71}
+		{03A2AD5E-BD59-4FC6-B92A-FE9E606AC8F9} = {B0A13D4F-6324-49A4-94B2-2F3867B84688}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1BF9B1E4-7FFB-41F9-9E99-A6538D1E3FB9}
