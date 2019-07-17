@@ -38,7 +38,7 @@ namespace Pitstop_CustomerManagement.Application.Test.CustomerTest
             // assert
             //Assert.IsNotType<CustomerModel>(result);
             //Assert.Equal(customerId, result.Id);
-            Assert.True(true);
+            Assert.True(false);
         }
 
 
