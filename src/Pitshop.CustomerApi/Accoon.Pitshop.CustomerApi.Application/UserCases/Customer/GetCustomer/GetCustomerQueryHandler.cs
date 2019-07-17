@@ -24,7 +24,7 @@ namespace Accoon.Pitshop.CustomerApi.Application.UserCases.Customer.GetCustomer
 
         public async Task<CustomerModel> Handle(GetCustomerQuery request, CancellationToken cancellationToken)
         {
-            var customer = await this.cqrscaDbContext.Customers.FirstAsync(o => o.Id.Equals(request.Id));
+            var customer = await this.cqrscaDbContext.Customers.FirstOrDefaultAsync(o => o.Id.Equals(request.Id));
             var getCustomer = this.mapper.Map<CustomerModel>(customer);
             return getCustomer;
         }

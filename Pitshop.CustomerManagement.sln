@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{A531EF62-149A-4F9D-9031-75E6EB6DDE7F}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,6 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{A531
 		scripts\dotnet-build-local.sh = scripts\dotnet-build-local.sh
 		scripts\dotnet-build.sh = scripts\dotnet-build.sh
 		scripts\dotnet-publish.sh = scripts\dotnet-publish.sh
+		dotnet-test.sh = dotnet-test.sh
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E9B0C4EC-7EE1-4F04-9E46-8111B93D269E}"
@@ -37,7 +38,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Accoon.Pitshop.CustomerApi.Persistence", "src\Pitshop.CustomerApi\Accoon.Pitshop.CustomerApi.Persistence\Accoon.Pitshop.CustomerApi.Persistence.csproj", "{ABB62996-59FB-43DF-9672-251892BB00F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pitstop-CustomerManagement.Application.Test", "tests\Pitstop-CustomerManagement.Application.Test\Pitstop-CustomerManagement.Application.Test.csproj", "{03A2AD5E-BD59-4FC6-B92A-FE9E606AC8F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pitstop-CustomerManagement.Application.Test", "tests\Pitstop-CustomerManagement.Application.Test\Pitstop-CustomerManagement.Application.Test.csproj", "{03A2AD5E-BD59-4FC6-B92A-FE9E606AC8F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

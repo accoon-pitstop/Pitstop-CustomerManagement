@@ -29,7 +29,7 @@ namespace Pitstop_CustomerManagement.Application.Test.CustomerTest
             var newCustomerId = Guid.NewGuid();
 
             // Act
-            var result = await customerCreatedCommandHandler.Handle(new CreateCustomerCommand() { Name = "aaa" }, CancellationToken.None);
+            var result = await customerCreatedCommandHandler.Handle(new CreateCustomerCommand() { }, CancellationToken.None);
             result.CustomerId = newCustomerId;
 
             // Assert
