@@ -10,10 +10,10 @@ before_script:
   - chmod -R a+x scripts
 script:
   - ./scripts/dotnet-build.sh
+  - ./scripts/dotnet-test.sh
 after_success:
   - ./scripts/dotnet-publish.sh
   - ls
-  - ./scripts/dotnet-test.sh
   - ./scripts/docker-publish.sh
 notifications:
   email:
