@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{A531
 		scripts\dotnet-build-local.sh = scripts\dotnet-build-local.sh
 		scripts\dotnet-build.sh = scripts\dotnet-build.sh
 		scripts\dotnet-publish.sh = scripts\dotnet-publish.sh
-		dotnet-test.sh = dotnet-test.sh
+		scripts\dotnet-test.sh = scripts\dotnet-test.sh
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E9B0C4EC-7EE1-4F04-9E46-8111B93D269E}"
